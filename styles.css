@@ -1,0 +1,98 @@
+main {
+  background: url('./img/main-bg.jpeg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.header {
+  height: 10vh;
+  width: 100vw;
+  padding: 20px;
+}
+
+.view-list {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.landing-page-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.title h1 {
+  font-size: 200px;
+}
+
+.title h3 {
+  font-size: 40px;
+}
+
+.arrow img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 30px;
+
+}
+
+.media-menu {
+  height: 80px;
+  width: 80px;
+  display: none;
+}
+
+.logos {
+  float: right;
+  display: none;
+  width: 15vw;
+  margin-right: 20px;
+}
+
+.fLogo {
+  height: 30px;
+  width: 30px;
+}
+
+.tLogo {
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 700px) {
+  .media-menu {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+  }
+  .view-list {
+    display: none;
+  }
+  .logos {
+    display: flex;
+    justify-content: space-between;
+  }
+}
